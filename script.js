@@ -85,7 +85,7 @@ function renderQuestion() {
     return;
   }
 
-  intervalId = setInterval(updateTime, 6000);
+  intervalId = setInterval(updateTime, 1000);
   questionEl.textContent = questions[questionIndex].question;
 
   optionListEl.innerHTML = "";
